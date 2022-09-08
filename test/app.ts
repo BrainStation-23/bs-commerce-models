@@ -1,4 +1,4 @@
-import {CreateCustomerRequest, CreateManufacturerRequest, ISearchProductInfo} from '@bs-commerce/models'
+import {CreateCustomerRequest, CreateManufacturerRequest, CreateTagRequestBody} from '@bs-commerce/models'
 
 const customerDemo = <CreateCustomerRequest>{
     phone: "string",
