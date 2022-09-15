@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@bs-commerce/models": "^2.2.1"
+    "@bs-commerce/models": "^2.2.2"
   }
 }

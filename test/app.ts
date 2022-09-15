@@ -1,4 +1,4 @@
-import {CreateCustomerRequest, CreateManufacturerRequest, CreateTagRequestBody} from '@bs-commerce/models'
+import {CreateCustomerRequest, CreateManufacturerRequest, Manufacturer} from '@bs-commerce/models'
 
 const customerDemo = <CreateCustomerRequest>{
     phone: "string",
@@ -14,6 +14,10 @@ const manufacturerDemo = <CreateManufacturerRequest>{
     description: "string",
     picture: "string",
 
+}
+
+const manufacturerResponse = <Manufacturer>{
+    id: "string",
 }
 
 console.log(customerDemo, manufacturerDemo)
